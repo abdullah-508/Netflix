@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.hero{
+    height: 90vh;
+    background-color: black;
+}
+.hero-pic{
+    background-image: url(assets/images/IT-en-20240506-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.hero-opacity{
+    background-color: rgba(0, 0, 0, 0.548);
+    height: 90vh;
+    position: relative;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin: auto;
+    position: relative;
+    z-index: 6;
+    
+}
+.nav-btns :nth-child(1) {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 6px 36px;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.nav-btns :nth-child(2){
+    background-color: red;
+    border: none;
+    padding: 6px 8px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight:  500;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-btns :nth-child(2):hover{
+    background-color: rgb(184, 0, 0);
+    transition-duration: .5s;
+
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+} 
+.hero-text1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.hero-text2{
+    font-size: 24px;
+    margin-bottom: 20px;    
+}
+.hero-text :nth-child(3){
+    font-size: 20px;
+    margin-bottom: 14px;  
+}
+.srch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    
+}
+.srch-email{
+    padding: 16px 180px 16px 7px;
+    background-color: rgba(0, 0, 0, 0.575);
+    border: 1px solid rgba(255, 255, 255, 0.582);
+    border-radius: 4px;
+    font-size: 16px;
+}
+.srch button{
+    font-size: 1.5rem;
+    padding: 12px 40px;
+    font-weight: 500;
+    border: none;
+    background-color: red;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.srch button a{
+    text-decoration: none;
+}
+.srch button:hover{
+    background-color: rgb(184, 0, 0);
+    transition-duration: .5s;
+}
+.section1{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1-left{
+    width: 50%;
+    padding-left: 180px;
+    padding-right: 50px;
+
+}
+.section1-left h2{
+    font-size: 48px;
+    font-weight: bolder;
+    
+}
+.section1-left p{
+    font-size: 22px;
+    padding-top: 20px;
+}
+.section1-right{
+    width: 50%;
+    display: flex;
+    position: relative;
+}
+.section1-right img{
+    height: 454px;
+    position: relative;
+    z-index: 11;
+
+}
+.section1-right video{
+    height: 247px;
+    position: absolute;
+    left: 82px;
+    top: 94px;
+}
+.selector{
+    height: 10px;
+    background-color: #232323;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    
+}
+.section2-left{
+    display: flex;
+    width: 50%;
+    position: relative;
+    align-items: center;
+    justify-content: end;
+
+}
+.section2-left img{
+    height: 400px;
+    position: relative;
+    z-index: 11;
+}
+.section2-left video{
+    height: 190px;
+    position: absolute;
+    right: 97px;
+    bottom: 167px;
+
+}
+.section2-right{
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 200px;
+}
+.section2-right h2{
+    font-size: 48px;
+    font-weight: bolder;
+
+}
+.section2-right p{
+    font-size: 22px;
+    padding-top: 20px;
+}
+.section-FAQ{
+    height: 110vh;
+    padding: 60px 180px;
+
+}
+.section-FAQ h2{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.questions p{
+    font-size: 22px;
+    background-color: #2D2D2D;
+    padding: 24px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+.questions p:hover{
+    background-color: #444343;
+    transition-duration: .5s;
+}
+.faq-text{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 28px;
+    margin-bottom: 10px;
+}
+footer{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    /* gap: 150px; */
+    padding-left: 180px;
+    padding-right: 180px;
+    justify-content: space-between;
+    
+}
+.fotr{
+    display: flex;
+    flex-direction: column;
+}
+.fotr a{
+    padding-bottom: 18px;
+    font-size: 14px;
+
+}
+.BrainCode{
+    text-align: center;
+    padding: 10px;
+    font-size: 20;
+}
+
+/* Sign In page */
+
+.Sign-hero-pic{
+    background-image: url(assets/images/IT-en-20240506-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Sign-hero-opacity{
+    background-color: rgba(0, 0, 0, 0.548);
+    height: 100vh;
+
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 92px;
+    
+}
+.form-box{
+    height: 75vh;
+    width: 450px;
+    padding: 48px 68px;
+    background-color: rgba(0, 0, 0, 0.76);
+}
+.form-box h2{
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+.first2-box input{
+    padding: 18px 16px ;
+    font-size: 16px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+.first2-box input:hover{
+    border: 2px solid white;
+    border-radius: 4px;   
+}
+.form1-butn{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+.form1-butn:hover{
+    background-color: rgb(184, 0, 0);
+}
+.form1-p{
+    text-align: center;
+    margin-bottom: 16px;
+    color: gainsboro;
+}
+.form2-butn{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #272727;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+.form2-butn:hover{
+    background-color: #202020;
+}
+.form2-p{
+    text-align: center;
+    margin-bottom: 16px;
+}
+.form3-p{
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.form3-p a{
+    font-weight: 600;
+    text-decoration: none;
+}
+.form4-p{
+    font-size: 14px;
+    color: gainsboro;
+}
+.form4-p a{
+    text-decoration: none;
+    color: rgb(4, 41, 206);
+}
+.Sign-fotr{
+    padding-top: 200px;
+    height: 70vh;
+}
